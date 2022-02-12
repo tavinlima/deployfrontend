@@ -53,4 +53,4 @@ jobs:
           app-name: 'equipamentosweb'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0132435357DB44DAA92643B189EA249C }}
-          package: .
+          package: 'build'
