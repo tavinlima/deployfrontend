@@ -1,10 +1,10 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 
 export const Home = () => {
     
     return(
         <>
-            <header>
+            <header className="container">
                 <img src="https://www.strunkmedia.com/wp-content/uploads/2018/05/bigstock-Print-163213010.png" alt="" />
                 <nav>
                     <ul>
