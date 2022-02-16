@@ -4,15 +4,6 @@ export const Home = () => {
     
     return(
         <>
-            <header className="container">
-                <img src="https://www.strunkmedia.com/wp-content/uploads/2018/05/bigstock-Print-163213010.png" alt="" />
-                <nav>
-                    <ul>
-                        <li><a href="/">Início</a></li>
-                        <li><a href="/Login">Login</a></li>
-                    </ul>
-                </nav>
-            </header>
             <main>
                 <section>
                     <h1>Gerenciamento de Patrimônio</h1>
@@ -27,7 +18,7 @@ export const Home = () => {
                 </section>
 
             </main>
-            <footer>Escola Senai de Informárica. Todos os direitos reservados. 2022</footer>
+            
         </>
     )
 }
